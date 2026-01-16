@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Foodly',
       theme: ThemeData(fontFamily: 'Inter', useMaterial3: true),
+      debugShowCheckedModeBanner: false,
       home: const SplashScreen(),
       routes: {
         '/home': (context) => const HomeScreen(),
